@@ -1,0 +1,13 @@
+<p>department-detail {{departmentId}} </p>
+<p>
+    <button (click)="showOverview()">Overview</button>
+    <button (click)="showContact()">Contact</button>
+</p>
+<router-outlet></router-outlet>
+<p>
+<button><a (click)="goPrevious()">Previous</a></button>
+<button><a (click)="goNext()">Next</a></button>
+</p>
+<div>
+    <button><a (click)="goToDepartments()">Back</a></button>
+</div>
